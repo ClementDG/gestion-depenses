@@ -16,7 +16,7 @@
 
     - Données persistantes via localStorage
 
-    - UI responsive et look "mobile" grâce aux composants Ionic
+    - UI responsive et look mobile grâce aux composants Ionic
 
 ## Structure du projet
 
@@ -41,8 +41,8 @@
 ## Installation et lancement (développement)
 
     - Cloner le dépôt :
-    git clone <url-du-dépôt>
-    cd <nom-du-dossier>
+    git clone https://github.com/ClementDG/gestion-depenses.git
+    cd gestion-depenses
 
     - Installer les dépendances :
     npm install
@@ -57,6 +57,9 @@
 
     - Ajouter la plateforme Android :
     npx ionic cap add android
+
+    - Copie des fichiers de build :
+    npx ionic cap copy android
 
     - Ouvrir le projet dans Android Studio :
     npx ionic cap open android
