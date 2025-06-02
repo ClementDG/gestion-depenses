@@ -1,0 +1,7 @@
+{
+  "name": "gestion-depenses",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
