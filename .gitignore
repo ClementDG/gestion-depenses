@@ -10,9 +10,22 @@
 
 # production
 /dist
+/build
+/www
+
+# Capacitor/Android native
+/android/app/build
+/android/.gradle
+/android/.idea
+/android/local.properties
+/android/.cxx
+/android/captures
+/android/.externalNativeBuild
 
 # misc
 .DS_Store
+Icon?
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -29,3 +42,14 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+# Mac system files
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

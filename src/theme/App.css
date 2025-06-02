@@ -1,0 +1,29 @@
+.expense-card {
+  box-shadow: 0 4px 18px 0 rgba(58,134,255,0.09);
+  border-radius: 20px;
+  margin: 18px 8px;
+  transition: box-shadow 0.2s;
+}
+.expense-card:hover {
+  box-shadow: 0 8px 32px 0 rgba(58,134,255,0.20);
+}
+
+.form-item {
+  --highlight-color-focused: var(--ion-color-primary);
+  margin-bottom: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(58,134,255,0.06);
+  background: #f7f9fa;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+
+.form-item .input-wrapper.sc-ion-input-md {
+  margin-top: 4px;
+}
+
+.form-item ion-label {
+  font-size: 1.07em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
